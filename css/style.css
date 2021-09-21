@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-size:16px;
+}
+
+header{
+    background-image: url('../images/background1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+header h1{
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+header .image_store{
+    max-width: 300px;
+}
+
+header .phone_etap1{
+    max-width:40%;
+}
+
+.btn{
+width: 230px;
+height: 70px;
+}
+
+.btn span{
+    font-size: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* carousel client*/
+
+.brands {
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+.brands_slider_container {
+    padding-left: 30px;
+    padding-right: 97px;
+    width: 100%;
+}
+
+.brands_item img {
+    max-width: 150px;
+    max-height: 100px;
+    margin: 20px;
+}
+
+.brands_nav {
+    position: absolute;
+   
+    transform: translateY(-30%);
+    padding: 5px;
+    cursor: pointer
+}
+
+.brands_nav:hover i {
+    color: #878686
+}
+
+.brands_prev {
+    left: 10px
+}
+
+.brands_next {
+    right: 10px
+}
+/*section pourqoui utiliser application  ini */
+h2{
+    font-family: 'Nunito',sans-serif;
+    font-weight: 900;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+.text_why_us,.text_step2,.text_step3,.text_step4,.text_step5,.text_step6,.text_step7,.text_step8{
+    color: #B8B8B8;
+    max-width: 500px;
+    min-width: 100px;
+    margin: auto;
+}
+.why_us img{
+    width: 80px;
+    
+}
+
+.why_us .div-icon{
+    width: 150px;
+    height:  120px;
+    margin: 10px auto;
+}
+
+.p-why_us ,.para_step8{
+max-width: 300px;
+color: #B8B8B8;
+}
+
+/*section etape 2*/
+
+.step2{
+    background-color: #F8F8F8;
+    align-items: center;
+}
+
+.step2 img{
+    max-width: 50%;
+}
+
+/*section etape 3*/
+.phone_step3{
+    max-width: 80%;
+}
+
+/*section etape 4*/
+.step4{
+    background-color: #F8F8F8;
+}
+.phone_step4{
+    max-width: 60%;
+}
+
+
+/*section etape 5*/
+.tablete_step5{
+    max-width: 60%;
+}
+/*section etape 6*/
+.step6{
+    background-color: #F8F8F8;
+}
+.phone_step6{
+    max-width: 50%;
+}
+/*section etape 7*/
+.phone_step7{
+    max-width: 25%;
+    min-width: 200px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.text_step7{
+    color: #B8B8B8;
+   margin: auto;
+}
+/*section etape 8*/
+.step8{
+    background-color:#F8F8F8;
+}
+.phone_step8{
+    max-width: 80%;
+}
+/* aside*/
+
+aside{
+    background-color: #D30909;
+}
+.text_aside{
+    max-width: 500px;
+    margin: auto;
+}
+
+/* footer */
